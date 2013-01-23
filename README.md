@@ -2,6 +2,12 @@
 
 `UIActionSheet` subclass with a simpler API using blocks and target/action invocations.
 
+## Add to your project
+
+You can either copy the files into your project or you can use CocoaPods with the following in your Podfie:
+
+    pod 'MEActionSheet', '~> 1.0.0'
+
 ## Examples
 
 Below are two examples of an action sheet that displays a cancel button, destructive button, and two other buttons. The first is how you would normally create an action sheet with `UIActionSheet`. The second is the equivalent, but using `MEActionSheet`.
